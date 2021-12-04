@@ -1,6 +1,6 @@
-# REST for Meteor [![Build Status](https://travis-ci.org/stubailo/meteor-rest.svg)](https://travis-ci.org/stubailo/meteor-rest)
+# REST for Clinical Meteor & Node on FHIR
 
-A set of packages that makes it easy to make your Meteor app's data accessible over HTTP. Easily integrate your Meteor backend into a native mobile app or query your data from your Rails or PHP app.
+A set of packages that makes it easy to add HTTP endpoints to your Clinical Meteor or NodeOnFHIR app.  Forked from `simple:rest`, due to custom needs around the [FHIR](https://www.hl7.org/fhir/index.html) specification.  
 
 ## Packages
 
@@ -11,9 +11,3 @@ A set of packages that makes it easy to make your Meteor app's data accessible o
 - [simple:authenticate-user-by-token](https://github.com/stubailo/meteor-rest/blob/master/packages/authenticate-user-by-token/README.md) - authenticate user via auth token
 - [simple:rest-bearer-token-parser](https://github.com/stubailo/meteor-rest/blob/master/packages/rest-bearer-token-parser/README.md) - parse standard bearer token via request headers, query params, or body
 - [simple:rest-method-mixin](https://github.com/stubailo/meteor-rest/blob/master/packages/rest-method-mixin/README.md) - add REST options to methods defined using [ValidatedMethod](https://github.com/meteor/validated-method)
-
-## Planned
-
-- `simple:rest-accounts-facebook`, etc - OAuth login packages for HTTP
-- Static file management, authentication
-- Integration with [Restivus](https://github.com/kahmali/meteor-restivus) for custom API needs
