@@ -1,12 +1,12 @@
 Package.describe({
-  name: 'simple:rest',
+  name: 'clinical:rest',
   version: '1.1.1',
 
   // Brief, one-line summary of the package.
-  summary: 'The easiest way to add a REST API to your Meteor app',
+  summary: 'The easiest way to add a REST API to your Clinical Meteor app.  Requirement for NodeOnFHIR apps.',
 
   // URL to the Git repository containing the source code for this package.
-  git: 'https://github.com/stubailo/meteor-rest/blob/master/packages/rest/',
+  git: 'https://github.com/clinical-meteor/meteor-rest/blob/master/packages/rest/',
 
   // By default, Meteor will default to using README.md for documentation.
   // To avoid submitting documentation, set this field to null.
