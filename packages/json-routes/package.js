@@ -14,7 +14,7 @@ Package.describe({
 });
 
 Npm.depends({
-  connect: '2.30.2',
+  'connect': '2.30.2',
   'connect-route': '0.1.5',
 });
 
