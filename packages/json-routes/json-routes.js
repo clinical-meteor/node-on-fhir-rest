@@ -129,7 +129,7 @@ function writeJsonToBody(res, json) {
   if (json !== undefined) {
     var shouldPrettyPrint = (process.env.NODE_ENV === 'development');
     var spacer = shouldPrettyPrint ? 2 : null;
-    res.setHeader('Content-type', 'application/json');
+    // res.setHeader('Content-type', 'application/json');
     res.write(JSON.stringify(json, null, spacer));
   }
 }
